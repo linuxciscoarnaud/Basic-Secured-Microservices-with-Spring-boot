@@ -3,7 +3,7 @@ Two basic secured micro-services developed using spring boot and that use RestTe
 
 This source code is an implementation of two basic secured micro-services: a produser (product-service) and a consumer (customer-service)
 
-The consumer uses a direct Rest call as well as the RestTemplate object to connect to the produser and perform the traditional Create, read,
+The consumer uses direct Rest calls as well as the RestTemplate object to connect to the produser and perform the traditional Create, read,
 update and delete operations.
 
 The consumer receives all the requests, then use RestTemplate Security to establishes a secured connection with the producer and passes them over. Then the producer replies with an 
